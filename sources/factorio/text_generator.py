@@ -1,4 +1,4 @@
-from factorio import blueprints as factblue
+import blueprints as factblue
 from factblue.blueprints import EncodedBlob
 import json
 import copy
@@ -23,9 +23,9 @@ string that contains your text written with concrete
 letters.
 
 Example simple usage:
-    python factorio-text-generator.py "hello world"
+    python text_generator.py "hello world"
 
-Options:
+Options:q
 ---------
 -h   Show help
 -v   Verbose output
